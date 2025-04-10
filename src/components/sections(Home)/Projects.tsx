@@ -3,20 +3,20 @@ import { motion } from 'framer-motion'
 
 const projects = [
   {
-    title: 'Project 1',
-    description: 'This is a description of project 1.',
-    stacks: ['React', 'TypeScript', 'TailwindCSS'],
-    image: 'https://via.placeholder.com/300',
-    github: 'https://github.com/yourusername/project1',
-    preview: 'https://project1.example.com'
+    title: 'Make Your Burger',
+    description: 'Desenvolvi um projeto para uma hamburgueria utilizando Vue.js no front-end. O sistema conta com duas páginas principais: a página inicial, onde os clientes podem fazer pedidos, e a dashboard, que permite gerenciar os pedidos, alterando seu status para pendente ou concluído. O projeto foi inicialmente criado com JSON Server como backend, mas atualmente utiliza uma API RESTful desenvolvida por mim com Python e Django REST Framework.',
+    stacks: ['Vue.JS', 'DjangoRestFramework', 'PostgreSQL'],
+    image: '/MakeYourBurger.jpg',
+    github: 'https://github.com/JulioVieiraP/Make-your-burger',
+    preview: 'https://make-your-burger-lemon.vercel.app'
   },
   {
-    title: 'Project 2',
-    description: 'This is a description of project 2.',
-    stacks: ['Next.js', 'Node.js', 'CSS'],
-    image: 'https://via.placeholder.com/300',
-    github: 'https://github.com/yourusername/project2',
-    preview: 'https://project2.example.com'
+    title: 'Efood',
+    description: 'O objetivo do projeto é ser uma vitrine digital para diversos restaurantes, onde cada estabelecimento pode apresentar seus pratos de forma organizada.',
+    stacks: ['React.JS', 'Redux.js', 'TypeScript', 'Styled-components'],
+    image: '/Efood.jpg',
+    github: 'https://github.com/JulioVieiraP/efood',
+    preview: 'https://efood-lyart-ten.vercel.app'
   }
 ]
 
@@ -74,7 +74,7 @@ const Projects = () => {
                     ))}
                   </ul>
                 </div>
-                <div className="mt-auto flex justify-between text-sm">
+                <div className="mt-3 flex justify-between text-sm">
                   <a
                     href={project.github}
                     target="_blank"
