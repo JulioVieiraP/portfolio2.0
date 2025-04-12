@@ -43,7 +43,7 @@ const About = () => {
           </p>
 
           <motion.button
-            onClick={() => window.open('/path/to/cv.pdf', '_blank')}
+            onClick={() => window.open('/Currículo_Júlio Vieira Paixão.pdf', '_blank')}
             className="px-6 py-3 text-white bg-blue-500 rounded-lg hover:bg-blue-700 transition duration-300"
             initial={{ scale: 0.9, opacity: 0 }}
             whileInView={{ scale: 1, opacity: 1 }}

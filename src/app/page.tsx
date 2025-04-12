@@ -6,7 +6,7 @@ import Projects from '@/components/sections(Home)/Projects'
 import Services from '@/components/sections(Home)/services'
 import Skills from '@/components/sections(Home)/Skills'
 
-export default function Home() {
+export default async function Home() {
   return (
     <main className="flex justify-center flex-col items-center bg-gray-100">
       <About />
