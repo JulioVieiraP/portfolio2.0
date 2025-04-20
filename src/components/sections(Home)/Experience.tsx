@@ -3,13 +3,13 @@ import { motion } from 'framer-motion'
 
 const experiences = [
   {
-    company: 'Desenvolvedor full stack junior - IPPS(Instituto de Pesquisa e Promoção da Saúde)',
+    company: 'Desenvolvedor Frontend junior - IPPS(Instituto de Pesquisa e Promoção da Saúde)',
     period: 'out 2024 - atualmente',
     description:
       'Trabalhei como desenvolvedor frontend, criando interfaces modernas e responsivas.'
   },
   {
-    company: 'Desenvolvedor web - 14Bis Analítica',
+    company: 'Desenvolvedor Full Stack - 14Bis Analítica',
     period: 'out 2024 - atualmente',
     description:
       'Atuo como Desenvolvedor Full Stack, onde transformo informações em decisões estratégicas por meio de soluções inovadoras e eficientes. Meu trabalho é focado em criar interfaces intuitivas e responsivas, utilizando as tecnologias mais modernas no desenvolvimento web para proporcionar a melhor experiência ao usuário.'
