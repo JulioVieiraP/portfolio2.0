@@ -41,7 +41,7 @@ const Services = () => {
               className="bg-white/60 backdrop-blur-md shadow-xl hover:shadow-2xl transition-all duration-300 rounded-2xl p-6 text-center border border-white/20 hover:scale-[1.03]"
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.5, delay: index * 0.2 }}
+              transition={{ duration: 0.6, delay: index * 0.2 }}
               viewport={{ once: true }}
             >
               <h3 className="text-xl font-bold text-gray-800 mb-4">
